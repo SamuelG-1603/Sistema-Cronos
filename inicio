@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="admin-header">
+        <div class="logo">Nome/Logo do Sistema</div>
+        <nav class="admin-nav">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Empresas</a></li>
+                <li><a href="#">Cálculos</a></li>
+                <li><a href="#">Relatórios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="admin-main">
+        <section class="report-section">
+            <h2>Fechamento de Folha</h2>
+            <canvas id="chartFechamento"></canvas>
+            <div class="checklist" id="checklistFechamento"></div>
+        </section>
+        <section class="report-section">
+            <h2>Relatório de Férias</h2>
+            <canvas id="chartFerias"></canvas>
+            <div class="checklist" id="checklistFerias"></div>
+        </section>
+        <section class="report-section">
+            <h2>Relatório do 13°</h2>
+            <canvas id="chartDecimo"></canvas>
+            <div class="checklist" id="checklistDecimo"></div>
+        </section>
+    </main>
+</body>
+</html>
